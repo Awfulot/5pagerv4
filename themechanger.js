@@ -1,10 +1,10 @@
 
 
 function reverseFlex(){
-    var userScreenWidth = document.getElementById("screenWidth").screen.width;
-    var minScreenWidth = 500;
+    //var userScreenWidth = document.getElementById("screenWidth").screen.width;
+    //var minScreenWidth = 500;
 
-    if (userScreenWidth > minScreenWidth){
+    //if (userScreenWidth > minScreenWidth){
         //document.getElementById("topNav").style.flex = "initial";
 
 
@@ -17,11 +17,11 @@ function reverseFlex(){
        // document.getElementById("topNav").classList.add("space-y-5");
         document.getElementById("topNav").classList.remove("space-x-10");
         document.getElementById("topNav").classList.add("space-x-3");
-    }
-    else {
+   // }
+    //else {
       //  document.getElementById("topNav").style.flexDirection = "row";
 
-    }
+    //}
     //setTimeout(reverseFlex, 5000);
 
 }
